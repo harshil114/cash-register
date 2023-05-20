@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Raleway:ital,wght@0,700;1,200&display=swap');
+
+body{
+    font-family: 'Rajdhani', sans-serif;    
+    text-align: center;
+    
+   
+    color: darkblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding-left: 20rem;
+
+}
+
+h1{
+   padding: 1rem;
+}
+
+.description{
+   
+    /* background-color:pink; */
+    padding-top: 2rem;
+}
+.bill-amount{
+    padding: 1rem;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    color: black;
+}
+.caption{
+    background-color: blueviolet;
+}
